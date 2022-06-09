@@ -12,8 +12,10 @@ string strLine;
 
 Console.Write("Number: ");
 strLine = Console.ReadLine();
-num = int.Parse(strLine);
+num = Convert.ToInt32(strLine);
 
+// для выполнения условия задачи число должно быть больше нуля
+// 
 if(num <=0){
     Console.WriteLine("Error! Wrong number.");
 }

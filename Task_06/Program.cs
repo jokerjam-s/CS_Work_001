@@ -11,7 +11,7 @@ string strLine;
 
 Console.Write("Number: ");
 strLine = Console.ReadLine();
-num = int.Parse(strLine);
+num = Convert.ToInt32(strLine);
 
 if(num % 2 == 0){
     // четное

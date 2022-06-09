@@ -14,11 +14,11 @@ string strLine;
 
 Console.Write("input a: ");
 strLine = Console.ReadLine();
-a = int.Parse(strLine);
+a = Convert.ToInt32(strLine);
 
 Console.Write("input b: ");
 strLine = Console.ReadLine();
-b = int.Parse(strLine);
+b = Convert.ToInt32(strLine);
 
 if(a > b){
     Console.WriteLine("max = " + a);

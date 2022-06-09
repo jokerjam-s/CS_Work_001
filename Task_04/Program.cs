@@ -13,15 +13,15 @@ string strLine;
 
 Console.Write("Number 1: ");
 strLine = Console.ReadLine();
-n1 = int.Parse(strLine);
+n1 = Convert.ToInt32(strLine);
 
 Console.Write("Number 2: ");
 strLine = Console.ReadLine();
-n2 = int.Parse(strLine);
+n2 = Convert.ToInt32(strLine);
 
 Console.Write("Number 3: ");
 strLine = Console.ReadLine();
-n3 = int.Parse(strLine);
+n3 = Convert.ToInt32(strLine);
 
 
 if((n1 >= n2) && (n1 >= n3)){
